@@ -1,1 +1,56 @@
+header nav.navbar{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  header nav.navbar .navbar-brand{
+    color: white;
+    font-size: 35px;
+  }
+  header nav.navbar .navbar-nav .nav-item{
+    margin-right: 0.5rem;
+  }
+  header nav.navbar .navbar-nav .nav-item .nav-link{
+    padding: 0.5rem;
+    color: white;
+    transition: 0.3s;
+  }
+  header nav.navbar .navbar-nav .nav-item .nav-link:hover, header nav.navbar .navbar-nav .nav-item.active .nav-link {
+    color: var(--primary-color);
+  }
+  header nav.navbar .navbar-toggler{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 999;
+    outline: none;
+    background-color: var(--primary-color);
+  }
+.bgimage {
+    height: 100vh;
+    background: url('images/nathan-riley-9q3I8XhesQI-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+}
+.hero-txt {
+    font-size: 4.5rem;
+    font-style: oblique;
+}
 
+.hero-abt {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.text-center {
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+}
