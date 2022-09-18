@@ -33,7 +33,7 @@ header nav.navbar{
 }
 .hero-txt {
     font-size: 4.5rem;
-    font-style: oblique;
+    font-family: montserrat;
 }
 
 .hero-abt {
@@ -52,7 +52,8 @@ header nav.navbar{
 .text-center {
     color: white;
     font-size: 55px;
-    font-style: oblique;
+    font-family: montserrat;
+    font-weight: 200;
 }
 #Projects {
     background-color: black;
@@ -60,7 +61,7 @@ header nav.navbar{
 .title {
     color: white;
     font-size: 35px;
-    font-style: oblique;
+    font-family: montserrat;
     text-align: center;
   }
   
@@ -68,3 +69,15 @@ header nav.navbar{
     margin-bottom: 10px;
     aspect-ratio: 3 / 2;
   }
+  .social {
+    text-align: center;
+    font-size: 35px;
+  }
+ .description {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+    display: inline-block;
+
+ }
