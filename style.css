@@ -50,7 +50,21 @@ header nav.navbar{
 }
 
 .text-center {
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 55px;
     font-style: oblique;
 }
+#Projects {
+    background-color: black;
+}
+.title {
+    color: white;
+    font-size: 35px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  .img-ratio {
+    margin-bottom: 10px;
+    aspect-ratio: 3 / 2;
+  }
